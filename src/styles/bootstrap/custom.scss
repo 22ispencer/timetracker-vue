@@ -1,0 +1,21 @@
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+
+$primary: #ffc217;
+$warning: orange;
+$nav-pills-link-active-color: #000;
+
+$theme-colors: (
+  "primary": $primary,
+  "warning": $warning
+);
+
+// Configuration
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+@import "bootstrap/scss/bootstrap";
